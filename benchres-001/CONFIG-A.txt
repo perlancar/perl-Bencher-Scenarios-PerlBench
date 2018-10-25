@@ -1,0 +1,103 @@
+Summary of my perl5 (revision 5 version 26 subversion 1) configuration:
+   
+  Platform:
+    osname=linux
+    osvers=4.10.0-38-generic
+    archname=x86_64-linux
+    uname='linux backpacker 4.10.0-38-generic #42~16.04.1-ubuntu smp tue oct 10 16:32:20 utc 2017 x86_64 x86_64 x86_64 gnulinux '
+    config_args='-de -Dprefix=/home/u1/perl5/perlbrew/perls/perl-5.26.1 -Aeval:scriptdir=/home/u1/perl5/perlbrew/perls/perl-5.26.1/bin'
+    hint=recommended
+    useposix=true
+    d_sigaction=define
+    useithreads=undef
+    usemultiplicity=undef
+    use64bitint=define
+    use64bitall=define
+    uselongdouble=undef
+    usemymalloc=n
+    default_inc_excludes_dot=define
+    bincompat5005=undef
+  Compiler:
+    cc='cc'
+    ccflags ='-fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    optimize='-O2'
+    cppflags='-fwrapv -fno-strict-aliasing -pipe -fstack-protector-strong -I/usr/local/include'
+    ccversion=''
+    gccversion='5.4.0 20160609'
+    gccosandvers=''
+    intsize=4
+    longsize=8
+    ptrsize=8
+    doublesize=8
+    byteorder=12345678
+    doublekind=3
+    d_longlong=define
+    longlongsize=8
+    d_longdbl=define
+    longdblsize=16
+    longdblkind=3
+    ivtype='long'
+    ivsize=8
+    nvtype='double'
+    nvsize=8
+    Off_t='off_t'
+    lseeksize=8
+    alignbytes=8
+    prototype=define
+  Linker and Libraries:
+    ld='cc'
+    ldflags =' -fstack-protector-strong -L/usr/local/lib'
+    libpth=/usr/local/lib /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed /usr/include/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib/../lib /usr/lib/x86_64-linux-gnu /usr/lib/../lib /lib
+    libs=-lpthread -lnsl -ldl -lm -lcrypt -lutil -lc
+    perllibs=-lpthread -lnsl -ldl -lm -lcrypt -lutil -lc
+    libc=libc-2.23.so
+    so=so
+    useshrplib=false
+    libperl=libperl.a
+    gnulibc_version='2.23'
+  Dynamic Linking:
+    dlsrc=dl_dlopen.xs
+    dlext=so
+    d_dlsymun=undef
+    ccdlflags='-Wl,-E'
+    cccdlflags='-fPIC'
+    lddlflags='-shared -O2 -L/usr/local/lib -fstack-protector-strong'
+
+
+Characteristics of this binary (from libperl): 
+  Compile-time options:
+    HAS_TIMES
+    PERLIO_LAYERS
+    PERL_COPY_ON_WRITE
+    PERL_DONT_CREATE_GVSV
+    PERL_MALLOC_WRAP
+    PERL_OP_PARENT
+    PERL_PRESERVE_IVUV
+    USE_64_BIT_ALL
+    USE_64_BIT_INT
+    USE_LARGE_FILES
+    USE_LOCALE
+    USE_LOCALE_COLLATE
+    USE_LOCALE_CTYPE
+    USE_LOCALE_NUMERIC
+    USE_LOCALE_TIME
+    USE_PERLIO
+    USE_PERL_ATOF
+  Locally applied patches:
+    Devel::PatchPerl 1.48
+  Built under linux
+  Compiled at Jan 23 2018 07:53:48
+  %ENV:
+    PERLBREW_HOME="/home/u1/.perlbrew"
+    PERLBREW_MANPATH="/home/u1/perl5/perlbrew/perls/perl-5.26.1/man"
+    PERLBREW_PATH="/home/u1/perl5/perlbrew/bin:/home/u1/perl5/perlbrew/perls/perl-5.26.1/bin"
+    PERLBREW_PERL="perl-5.26.1"
+    PERLBREW_ROOT="/home/u1/perl5/perlbrew"
+    PERLBREW_SHELLRC_VERSION="0.82"
+    PERLBREW_VERSION="0.84"
+    PERL_RANDOM_ANY_WARN="1"
+  @INC:
+    /home/u1/perl5/perlbrew/perls/perl-5.26.1/lib/site_perl/5.26.1/x86_64-linux
+    /home/u1/perl5/perlbrew/perls/perl-5.26.1/lib/site_perl/5.26.1
+    /home/u1/perl5/perlbrew/perls/perl-5.26.1/lib/5.26.1/x86_64-linux
+    /home/u1/perl5/perlbrew/perls/perl-5.26.1/lib/5.26.1

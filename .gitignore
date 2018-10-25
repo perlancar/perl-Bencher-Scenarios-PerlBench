@@ -1,0 +1,4 @@
+Bencher-Scenarios-perlbench-*
+.build
+*~
+nytprof*
